@@ -1,0 +1,89 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/*
+MAIN COLOR: #087f5b
+GREY COLOR: #343a40
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family : "Inter" , sans-serif ;
+    color : #343a40 ;
+}
+
+.accordion {
+    display: flex ;
+    gap: 20px;
+    flex-direction: column;
+    width: 700px;
+    margin : 100px auto ;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 50px 1fr auto ;
+    grid-gap: 6px;
+    padding: 21px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1) ;
+}
+
+.box-2 {
+    display: grid;
+    grid-template-columns: 50px 1fr auto ;
+    grid-gap: 6px;
+    padding: 21px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1) ;
+    border-top: 4px solid #087f5b ;
+}
+
+.list-box {
+    margin-top: 20px;
+    color: #343a40a1;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.num ,
+.main-headings {
+    font-size : 24px ;
+    font-weight: 550 ;
+}
+
+.num {
+    color: #343a4044;
+}
+
+.main-headings-2 ,
+.num-2 {
+    font-size : 24px ;
+    color: #087f5b;
+    font-weight: 500;
+    font-weight: 550 ;
+}
+
+.content {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.Para {
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.icon {
+    width: 25px;
+}
+
+.icon-2 {
+    width: 25px;
+    color: #087f5b;
+}

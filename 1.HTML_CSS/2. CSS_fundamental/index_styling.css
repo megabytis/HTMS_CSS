@@ -1,0 +1,152 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+h1,
+h2,
+p,
+li {
+  font-family: sans-serif;
+  padding-left: 4px;
+  line-height: 26px;
+  font-size: 18px;
+}
+
+nav a {
+  padding-right: 30px;
+}
+
+a:active {
+  color: rgb(0, 0, 0);
+}
+a:link {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  font-weight: 3000;
+  text-decoration: underline solid rgb(17, 17, 209);
+}
+
+.second-header {
+  color: rgb(31, 183, 31);
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.sec-head-para {
+  margin-top: 15px;
+}
+
+.second-header-image {
+  padding-top: 30px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.h3-para {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 32px;
+  color: rgb(2, 1, 0);
+  font-style: normal;
+}
+
+.third-header {
+  color: rgb(43, 175, 43);
+  margin-top: 40px;
+}
+
+.third-header-para {
+  margin-top: 15px;
+}
+
+.under-photo-para {
+  padding-inline: 10px;
+}
+
+ol,
+ul {
+  font-size: medium;
+  font-weight: 550;
+  padding-left: 40px;
+}
+
+.first-list-heading {
+  margin-left: 0px;
+  margin-top: 7px;
+  margin-bottom: 4px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+
+#copyright {
+  font-size: 10px;
+}
+
+#authorr {
+  font-style: italic;
+  font-size: 12;
+  /* padding-left: 830px; */
+}
+
+.main-header {
+  font-size: 60px;
+  background-color: rgba(64, 238, 90, 0.344);
+  text-align: center;
+}
+
+.post-area {
+  background-color: rgba(110, 237, 90, 0.298);
+  border: solid rgb(61, 242, 88);
+  border-width: 0.15cm;
+  border-top-right-radius: 0.1cm;
+  border-bottom-left-radius: 1cm;
+  border-bottom-right-radius: 1cm;
+  border-left: 0cm;
+  border-right: 0cm;
+  border-top-left-radius: 1cm;
+  border-top-right-radius: 1cm;
+  position: relative; /* this is for like-button as there we have used absolute*/
+}
+
+.post-heading {
+  text-align: center;
+  text-decoration: dashed;
+}
+
+.post-head-list {
+  list-style: none;
+}
+
+.article-image {
+  height: auto;
+  width: 50%;
+}
+
+html {
+  background-color: rgb(212, 245, 234);
+}
+
+.container {
+  width: 900px;
+  margin: 0% auto;
+}
+
+.like-button {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  font-size: large;
+}

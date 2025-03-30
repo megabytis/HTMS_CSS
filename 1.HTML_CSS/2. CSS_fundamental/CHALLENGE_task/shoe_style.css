@@ -1,0 +1,153 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+
+.main-header {
+  text-align: center;
+  background-color: rgba(232, 241, 241, 0.962);
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.special-description {
+  margin-top: 30px;
+}
+
+.special {
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #828585;
+  font-weight: 800;
+}
+
+.button {
+  width: 100%;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  font-size: large;
+  height: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.button:hover {
+  color: black;
+  font-weight: 600;
+  background-color: white;
+  border-top: 4px solid black;
+  text-align: center;
+}
+
+.button-link:link {
+  color: black;
+  text-decoration: none;
+}
+
+.sale-box {
+  width: 70px;
+  height: 30px;
+  position: absolute;
+  left: -40px;
+  top: -18px;
+  background-color: red;
+  text-align: center;
+}
+#sale {
+  padding-top: 6px;
+  color: white;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.more-info-link {
+  margin-top: 17px;
+}
+
+.product-list {
+  margin-top: 10px;
+  margin-left: 20px;
+  line-height: 30px;
+}
+
+.more-info:link {
+  color: #551a8b;
+}
+.more-info:visited {
+  color: #551a8b;
+}
+.more-info:hover {
+  text-decoration: none;
+}
+.more-info:active {
+  color: #551a8b;
+}
+
+.container {
+  width: 900px;
+  margin: 5% auto;
+  border: solid;
+  border-width: 0.15cm;
+  background-color: #daffff;
+  position: relative;
+}
+
+.box-1 {
+  background-color: black;
+  height: 25px;
+  width: 25px;
+  margin-top: 35px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.box-2 {
+  background-color: blue;
+  height: 25px;
+  width: 25px;
+  margin-top: 35px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.box-3 {
+  background-color: yellow;
+  height: 25px;
+  width: 25px;
+  margin-top: 35px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.box-4 {
+  background-color: red;
+  height: 25px;
+  width: 25px;
+  margin-top: 35px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.box-5 {
+  background-color: green;
+  height: 25px;
+  width: 25px;
+  margin-top: 35px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.box-6 {
+  background-color: rgb(61, 51, 21);
+  height: 25px;
+  width: 25px;
+  margin-top: 35px;
+  margin-right: 15px;
+  display: inline-block;
+}
